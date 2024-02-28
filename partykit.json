@@ -1,0 +1,10 @@
+{
+  "$schema": "https://www.partykit.io/schema.json",
+  "name": "semantic-sockets",
+  "main": "src/server.ts",
+  "compatibilityDate": "2024-02-28",
+  "serve": {
+    "path": "public",
+    "build": "src/client.ts"
+  }
+}
